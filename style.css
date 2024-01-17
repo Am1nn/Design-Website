@@ -340,12 +340,377 @@ header {
     display: grid;
     text-align: center;
     padding: 40px;
+
     
 }
-.main-section-4-inside-div
+.main-section-4-inside-div-yellow
 {
 
     background-color: #fde831 ;
     min-width: 180px;
     min-height: 260px;
+    align-items: center;
+    display:grid;
+    text-align: center;
+}
+
+
+.doe-brand
+{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.main-section-4-inside-div-white
+{
+    background-color: #ffffff;
+    min-height: 220px;
+    min-width: 120%;
+    margin-left: -10%;
+    
+}
+
+.box-4-word
+{
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 9%;
+    margin-right: 9%;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: bold;
+    color:#707070;
+}
+
+.main-section-5 {
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+    
+}
+
+.main-section-5 a
+{
+    text-decoration: none;
+    margin-top: 80px;
+    height: 40px;
+    background-color: #ffe500;
+    font-family: 'Raleway' ,sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 10px 35px;
+    color:#1a1a1a;
+    margin-bottom: 85px;
+}
+
+.view-our-video-div
+{
+    background-color: #1a1a1a;
+    display: flex;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 150px;
+}
+
+
+.view-our-video-inside-div
+{
+    margin: auto;
+    text-decoration: none;
+    background-color: #1a1a1a !important;
+    border:1px solid #ffe500 !important;
+    color: #ffe500 !important;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 25px 40px;
+}
+
+.view-our-video-word
+{
+    font-family: 'Raleway' ,sans-serif; 
+    letter-spacing: 14px;
+    font-size: 20px;
+}
+
+.main-section-5-axe
+{
+    margin-top: 85px;
+}
+.main-section-5-p-1
+{
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 18px;
+    margin-top: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: #1b1b1b;
+}
+.main-section-5-p-2
+{
+    font-size: 21px;
+    margin-top: 42px;
+    color: #707070;
+    line-height: 35px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 90px;
+}
+
+
+.container-team
+{
+    height: 510px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: grid;
+    gap: 17px;
+}
+
+.team-box
+{
+    min-height: 510px;
+    min-width: 250px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 7px rgb(93, 92, 92);
+}
+.team-black-div
+{
+    min-height: 290px;
+    background-color: #1b1b1b;
+}
+
+.team-orange-div
+{
+    min-height: 60px;
+    background-color: #d1bc05 ;
+    display: grid;
+    place-items: center; 
+}
+
+.team-orange-div p
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    
+}
+.team-box-p2
+{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #707070;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.yellow-place
+{
+    background-color: #ffe500;
+    min-height: 210px;
+    margin-top: 340px;
+    margin-bottom: 40px;
+}
+
+.bottom-container
+{
+    min-height: 210px;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    display: grid;
+    
+    gap: 30px;
+}
+
+.bottom-box-1
+{
+    margin-top: -30%;
+    min-height: 375px;
+    background-color: #1a1a1a;
+    margin-bottom: 5%;
+    display: grid;
+    place-items: center;
+
+}
+
+.bottom-box-1 p
+{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 30px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.bottom-box-2
+{
+    min-height: 375px;
+    background-color: #1a1a1a;
+    margin-bottom: -30%;
+    margin-top: 5%;
+}
+.bottom-div
+{
+    display: flex;
+}
+
+.bottom-p-1
+{
+    
+    margin-left: 14%;
+    margin-right: 53%;
+    color:#707070;
+    font-family: 'Raleway', sans-serif;
+    line-height: 35px;
+    font-weight: bold;
+}
+.bottom-ceo
+{
+    display: flex;
+    margin-left: 15.5%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.footer
+{
+    margin-top: 75px;
+    background-color: #1a1a1a;
+}
+
+
+.container-footer
+{
+    padding: 10px 10%;
+    display: flex;
+    gap: 105px;
+}
+
+.footer-column-1
+{
+    
+    display: block;
+    margin-bottom: 66px;
+}
+
+
+.footer-logo
+{
+    margin-top: 85px;
+    margin-left: 10px;
+}
+
+.footer-column-1 .p-1
+{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    max-width: 350px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.footer-column-1 .p-2
+{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    max-width: 350px;
+    margin-top: 55px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.footer-column-1 .p-3
+{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    max-width: 350px;
+    margin-top: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+p span.p-2-yellow-word {
+    color: #ffe500;
+  }
+
+.footer-column-2
+  {
+      display: block;
+      margin-bottom: 66px;
+  }
+
+.footer-column-2 .p-1
+{
+    margin-top: 85px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.footer-column-2 p
+{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    padding: 9px 0px;
+    
+}
+
+
+.footer-column-4
+{
+    display: block;
+      margin-bottom: 66px;
+}
+.footer-column-4 .p-1
+{
+    margin-top: 89px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.footer-column-4 p
+{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    max-width: 340px;
+    margin-top: 17px;
+    line-height: 25px;
+}
+
+.yellow-gmail-div
+{
+    background-color: #ffe500;
+    border-radius: 20px;
+}
+
+.yellow-gmail-div p
+{
+    color: #1a1a1a;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-network
+{
+    display: inline-flex;
+    margin-top: 40px;
+    gap: 30px;
 }
